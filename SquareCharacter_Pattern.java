@@ -10,7 +10,7 @@ public class SquareCharacter_Pattern
         while(i<=n)                 //I <= 4 rows
         {
             int j=1;
-            while (j<=n)
+            while (j<=n)            // J = cols
             {
                 char jthchar=(char)('A'+j-1);// A+1-1 =A ; A+2-1=B ;
                 System.out.print(jthchar + " ");
